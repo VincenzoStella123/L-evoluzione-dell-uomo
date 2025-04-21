@@ -1,0 +1,236 @@
+<!doctype html>
+<html lang="it">
+    <head>
+        <!-- Impostazione del set di caratteri -->
+        <meta charset="utf-8">
+
+        <!-- Titolo della pagina -->
+        <title>Presentazione: Evoluzione Umana</title>
+
+        <!-- Impostazioni per far vedere bene la presentazione anche su telefoni e tablet -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- File CSS di Reveal.js -->
+        <link rel="stylesheet" href="https://unpkg.com/reveal.js/dist/reveal.css">
+        <link rel="stylesheet" href="https://unpkg.com/reveal.js/dist/theme/black.css" id="theme">
+
+        <!-- Stile personalizzato per tutta la presentazione -->
+        <style>
+            /* Font base per il testo della presentazione */
+            body {
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            }
+
+            /* Layout per immagini e testo */
+            .slide-container {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-between;
+                align-items: center;
+            }
+
+            /* Contenitore immagine con margine */
+            .image-container {
+                width: 45%;
+                margin-right: 20px;
+                text-align: center;
+            }
+
+            /* Contenitore del testo accanto all'immagine */
+            .text-container {
+                width: 50%;
+            }
+
+            /* Immagini arrotondate */
+            img {
+                max-width: 100%;
+                height: auto;
+                border-radius: 8px;
+            }
+
+            /* Diagrammi centrati con margine superiore */
+            .diagram {
+                max-width: 100%;
+                margin-top: 20px;
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+            }
+
+            /* Titolo su un unica riga*/
+            .inline-title {
+                display: inline-block;
+                font-size: 1.6rem;
+                margin: 0;
+                white-space: nowrap;
+            }
+
+            /* Stile per le slide */
+            .reveal {
+                font-size: 1.2rem;
+                color: #e0e0e0;
+            }
+
+            /* Miglioramento per schermi piccoli */
+            @media (max-width: 768px) {
+                .slide-container {
+                    flex-direction: column;
+                }
+
+                .image-container,
+                .text-container {
+                    width: 100%;
+                    margin: 10px 0;
+                }
+
+                .inline-title {
+                    font-size: 1.4rem;
+                }
+            }
+
+            /* Testo in basso per tutte le slide */
+            .footer {
+                position: absolute;
+                bottom: 20px;
+                left: 0;
+                width: 100%;
+                text-align: center;
+                font-size: 0.9rem;
+                color: #888;
+            }
+        </style>
+    </head>
+
+    <body>
+        <!-- Contenitore principale Reveal.js -->
+        <div class="reveal">
+            <div class="slides">
+
+                <!-- Slide 1: Introduzione -->
+                <section>
+                    <h2 class="inline-title">🦴 Evoluzione Umana</h2>
+                    <p>Un viaggio affascinante dall’Homo habilis al Neanderthal</p>
+                </section>
+
+                <!-- Slide 2: Homo habilis -->
+                <section>
+                    <div class="slide-container">
+                        <div class="image-container">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/7/73/Homo_habilis_-_forensic_facial_reconstruction.png" alt="Ricostruzione del volto di Homo habilis">
+                        </div>
+                        <div class="text-container">
+                            <h2 class="inline-title">👣 Homo habilis</h2>
+                            <p>Viveva circa 2,4 milioni di anni fa in Africa.</p>
+                            <p>Primo utilizzatore noto di utensili in pietra.</p>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Slide 3: Homo erectus -->
+                <section>
+                    <div class="slide-container">
+                        <div class="image-container">
+                            <img src="https://3.bp.blogspot.com/-C1pYZAM9EgQ/TsGrDZHoTcI/AAAAAAAAFpM/TDoW_3vkzo0nIbfXSkzysSyCsN_JlQyGgCPcBGAYYCw/s1600/preistoria%2B3.gif" alt="Ricostruzione Homo erectus con fuoco">
+                        </div>
+                        <div class="text-container">
+                            <h2 class="inline-title">🔥 Homo erectus</h2>
+                            <p>Comparso circa 1,9 milioni di anni fa.</p>
+                            <p>Abile nell’uso del fuoco e primo a migrare fuori dall’Africa.</p>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Slide 4: Neanderthal -->
+                <section>
+                    <div class="slide-container">
+                        <div class="image-container">
+                            <img src="https://pikaia.eu/wp-content/uploads/2016/03/439px-Homo_neanderthalensis_adult_male_-_head_model_-_Smithsonian_Museum_of_Natural_History_-_2012-05-17.jpg" alt="Ricostruzione Homo neanderthalensis">
+                        </div>
+                        <div class="text-container">
+                            <h2 class="inline-title">🧠 Homo di neanderthal</h2>
+                            <p>Viveva in Europa e Asia fino a 40.000 anni fa.</p>
+                            <p>Era intelligente, viveva in gruppo e seppelliva i morti.</p>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Slide 5: Diagramma temporale -->
+                <section>
+                    <div class="slide-container">
+                        <div class="text-container">
+                            <h2 class="inline-title">📊 Linea del tempo</h2>
+                            <p>Una panoramica grafica dell’evoluzione umana.</p>
+                        </div>
+                        <div class="image-container">
+                            <img class="diagram" src="https://images.twinkl.co.uk/tw1n/image/private/t_630/u/ux/evolution-wiki_ver_1.png" alt="Diagramma evoluzione umana nel tempo">
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Slide finale -->
+                <section>
+                    <h2 class="inline-title">🎉 Fine!</h2>
+                    <p>Grazie per aver seguito la presentazione!</p>
+                </section>
+
+            </div>
+
+            <!-- Testo in basso per tutte le slide -->
+            <div class="footer">
+                Vincenzo Stella — Evoluzione Umana
+            </div>
+        </div>
+
+        <!-- Aggiunge le funzionalità alla presentazione -->
+        <script src="https://unpkg.com/reveal.js/dist/reveal.js"></script>
+
+        <!-- Inizializzazione Reveal.js con alcune opzioni  -->
+        <script>
+            Reveal.initialize({
+                hash: true,         // Per via URL
+                controls: false,    // Nasconde le frecce di navigazione
+                touch: true,        // Abilita il touch su dispositivi mobili
+                transition: 'slide' // Transizione
+            });
+
+            // Navigazione tramite rotella del mouse
+            let lastScroll = 0;
+            document.addEventListener('wheel', function (e) {
+                const delta = e.deltaY;
+                const now = Date.now();
+
+                if (now - lastScroll < 500) return;
+                lastScroll = now;
+
+                if (delta > 0) Reveal.next();  // Scroll verso il basso → slide successiva
+                else Reveal.prev();            // Scroll verso l’alto → slide precedente
+            }, { passive: true });
+
+            // Navigazione tramite trascinamento (drag del mouse)
+            let isDragging = false;
+            let startX = 0;
+
+            document.addEventListener('mousedown', function (e) {
+                isDragging = true;
+                startX = e.clientX;
+            });
+
+            document.addEventListener('mouseup', function () {
+                isDragging = false;
+            });
+
+            document.addEventListener('mousemove', function (e) {
+                if (!isDragging) return;
+
+                let diff = e.clientX - startX;
+
+                if (Math.abs(diff) > 100) {
+                    if (diff > 0) Reveal.prev();  // Trascina a destra → slide precedente
+                    else Reveal.next();           // Trascina a sinistra → slide successiva
+
+                    isDragging = false;
+                }
+            });
+        </script>
+    </body>
+</html>
